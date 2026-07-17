@@ -22,3 +22,11 @@ keystore/
 # Scratch
 tmp/
 *.tmp
+
+# Raw screenshot / store-asset staging folders (site copies live in assets/images/screenshots/)
+/Italian/
+/Spanish/
+/German/
+/French/
+/Porteguese/
+feature_graphic*

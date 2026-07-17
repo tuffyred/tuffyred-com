@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verbi Brutali — Politique de confidentialité et Conditions d'utilisation</title>
+  <meta name="description" content="Verbi Brutali — entraîneur de conjugaison des verbes italiens de Tuffyred LLC. Politique de confidentialité et conditions d'utilisation.">
+  <link rel="canonical" href="https://tuffyred.com/verbi-brutali/fr/">
+  <link rel="alternate" hreflang="en" href="https://tuffyred.com/verbi-brutali/">
+  <link rel="alternate" hreflang="it" href="https://tuffyred.com/verbi-brutali/it/">
+  <link rel="alternate" hreflang="es" href="https://tuffyred.com/verbi-brutali/es/">
+  <link rel="alternate" hreflang="fr" href="https://tuffyred.com/verbi-brutali/fr/">
+  <link rel="alternate" hreflang="de" href="https://tuffyred.com/verbi-brutali/de/">
+  <link rel="alternate" hreflang="pt" href="https://tuffyred.com/verbi-brutali/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://tuffyred.com/verbi-brutali/">
+  <link rel="icon" href="../../assets/images/verbi-brutali-icon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    .vb-page * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #ffffff; }
+    .vb-page {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+      color: #1C1C1C;
+    }
+
+    /* Language switcher */
+    .vb-langs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+      font-size: 13px;
+    }
+    .vb-langs a { color: #9A9384; text-decoration: none; }
+    .vb-langs a:hover { color: #C23B2C; }
+    .vb-langs a.active { color: #1C1C1C; font-weight: 600; }
+
+    /* Convenience-translation note */
+    .vb-tx-note {
+      font-size: 12px;
+      color: #9A9384;
+      line-height: 1.6;
+      background: #f9f6f0;
+      border-radius: 10px;
+      padding: 0.85rem 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    /* App header */
+    .vb-header {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #e5e0d8;
+      margin-bottom: 2rem;
+    }
+    .vb-icon {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .vb-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .vb-app-name {
+      font-family: 'Archivo Black', 'Arial Black', sans-serif;
+      font-size: 26px;
+      color: #1C1C1C;
+      margin-bottom: 4px;
+    }
+    .vb-app-sub {
+      font-size: 14px;
+      color: #9A9384;
+      margin-bottom: 12px;
+    }
+    .vb-badges { display: flex; gap: 8px; flex-wrap: wrap; }
+    .vb-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 13px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 13px;
+      font-family: 'Inter', sans-serif;
+      color: #1C1C1C;
+      text-decoration: none;
+    }
+    .vb-badge:hover { background: #f5f0e8; }
+
+    /* Screenshot gallery */
+    .vb-shots-heading {
+      font-family: 'Archivo Black', 'Arial Black', sans-serif;
+      font-size: 15px;
+      color: #1C1C1C;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 1rem;
+    }
+    .vb-shots {
+      display: flex;
+      gap: 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 -1.5rem 3rem;
+      padding: 0 1.5rem 1rem;
+    }
+    .vb-shots img {
+      flex: 0 0 auto;
+      width: 220px;
+      height: auto;
+      border-radius: 20px;
+      border: 1px solid #e5e0d8;
+      scroll-snap-align: start;
+      background: #ffffff;
+    }
+
+    /* Legal sections */
+    .vb-section {
+      margin-bottom: 3rem;
+    }
+    .vb-section-title {
+      font-family: 'Archivo Black', 'Arial Black', sans-serif;
+      font-size: 20px;
+      color: #1B3A5C;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #C23B2C;
+      display: inline-block;
+    }
+    .vb-section h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1C1C1C;
+      margin: 1.25rem 0 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .vb-section p {
+      font-size: 15px;
+      color: #4A4540;
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+    }
+    .vb-updated {
+      font-size: 12px;
+      color: #9A9384;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    /* Contact block */
+    .vb-contact {
+      background: #f9f6f0;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .vb-contact p { font-size: 15px; color: #4A4540; line-height: 1.7; }
+    .vb-contact a { color: #C23B2C; text-decoration: none; }
+    .vb-contact a:hover { text-decoration: underline; }
+
+    /* Footer */
+    .vb-footer {
+      text-align: center;
+      font-size: 12px;
+      color: #9A9384;
+      padding-top: 2rem;
+      border-top: 1px solid #e5e0d8;
+    }
+    .vb-footer a { color: #9A9384; text-decoration: none; margin: 0 6px; }
+    .vb-footer a:hover { color: #C23B2C; }
+  </style>
+</head>
+<body>
+  <div class="vb-page">
+
+    <!-- Language switcher -->
+    <nav class="vb-langs">
+      <a href="../" hreflang="en">English</a>
+      <a href="../it/" hreflang="it">Italiano</a>
+      <a href="../es/" hreflang="es">Español</a>
+      <a href="./" class="active" hreflang="fr">Français</a>
+      <a href="../de/" hreflang="de">Deutsch</a>
+      <a href="../pt/" hreflang="pt">Português</a>
+    </nav>
+
+    <!-- App header -->
+    <div class="vb-header">
+      <div class="vb-icon">
+        <img decoding="async" src="../../assets/images/verbi-brutali-icon.png" alt="Icône de l&#8217;application Verbi Brutali">
+      </div>
+      <div>
+        <p class="vb-app-name">Verbi Brutali</p>
+        <p class="vb-app-sub">Entraîneur de conjugaison des verbes italiens de Tuffyred LLC</p>
+        <div class="vb-badges">
+          <a href="YOUR_APP_STORE_URL" class="vb-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1C1C1C" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"></path></svg>
+            App Store
+          </a>
+          <a href="YOUR_GOOGLE_PLAY_URL" class="vb-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#1C1C1C" xmlns="http://www.w3.org/2000/svg"><path d="M3.18 23.76a2 2 0 0 0 2.18-.22l12.3-7.1-2.68-2.68-11.8 10zM20.9 10.54L17.76 8.7l-3 2.99 3 3 3.17-1.85a1.83 1.83 0 0 0 0-3.3zM1.05.48A1.8 1.8 0 0 0 .75 1.5v21a1.8 1.8 0 0 0 .3 1.02l.09.08 11.76-11.76v-.28L1.14.4z"></path></svg>
+            Google Play
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screenshots -->
+    <h2 class="vb-shots-heading">Un aperçu de l&#8217;application</h2>
+    <div class="vb-shots">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/01-home.png" alt="Écran d&#8217;accueil — choisissez un mode : Aléatoire, Un temps, Points faibles ou Revoir les règles">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/02-quiz-question.png" alt="Question d&#8217;entraînement — conjuguer le verbe “imparare” pour “io”">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/03-quiz-answer.png" alt="Bonne réponse avec le tableau de conjugaison complet de “imparare”">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/04-verb-tiers.png" alt="Réglages — choisir un niveau de 25 à 800 verbes">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/05-manage-verbs.png" alt="Gérer les verbes — rechercher et activer ou désactiver des verbes individuels">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/06-conjugation.png" alt="Référence de conjugaison — tableau complet du verbe “abitare”">
+      <img loading="lazy" width="1080" height="2424" src="../../assets/images/screenshots/fr/07-active-tenses.png" alt="Temps actifs — activer les temps Indicativo, Congiuntivo et Condizionale">
+    </div>
+
+    <!-- Convenience-translation note -->
+    <p class="vb-tx-note">Cette traduction est fournie uniquement pour votre confort. En cas de divergence, la version anglaise prévaut et constitue le texte juridiquement contraignant. <a href="../" style="color:#C23B2C;text-decoration:none">Lire la version anglaise &rarr;</a></p>
+
+    <!-- Support / Contact -->
+    <div class="vb-contact">
+      <p>Des questions, des commentaires ou des problèmes avec l&#8217;application&#8239;? Nous serions ravis d&#8217;avoir de vos nouvelles.<br>
+      Écrivez-nous à <a href="mailto:contact@tuffyred.com">contact@tuffyred.com</a></p>
+    </div>
+
+    <!-- Privacy Policy -->
+    <div class="vb-section" id="privacy">
+      <p class="vb-section-title">Politique de confidentialité</p>
+      <span class="vb-updated">Dernière mise à jour : 22 juin 2026</span>
+
+      <p>Tuffyred LLC (&#8220;nous&#8221; ou &#8220;notre&#8221;) exploite l&#8217;application mobile Verbi Brutali (l&#8217;&#8220;application&#8221;). La présente politique explique quelles informations nous recueillons et comment nous les utilisons.</p>
+
+      <h3>Informations que nous recueillons</h3>
+      <p>Verbi Brutali ne recueille, ne stocke ni ne transmet aucune information personnelle. Toute la progression des quiz, les réglages et les préférences sont stockés localement sur votre appareil et ne sont jamais envoyés à nos serveurs ni à des tiers.</p>
+
+      <h3>Achats intégrés</h3>
+      <p>L&#8217;application propose des achats intégrés facultatifs pour débloquer des fonctionnalités premium. Toutes les transactions d&#8217;achat sont traitées entièrement par Apple (App Store) ou Google (Google Play). Tuffyred LLC ne reçoit ni ne conserve vos informations de paiement. Veuillez consulter les politiques de confidentialité d&#8217;Apple ou de Google pour savoir comment elles traitent les données d&#8217;achat.</p>
+
+      <h3>Confidentialité des enfants</h3>
+      <p>Verbi Brutali ne recueille sciemment aucune information personnelle de quiconque, y compris des enfants de moins de 13 ans. L&#8217;application ne contient aucune publicité ni inscription de compte.</p>
+
+      <h3>Modifications de la présente politique</h3>
+      <p>Nous pouvons mettre à jour la présente politique de temps à autre. Toute modification sera publiée sur cette page avec une date mise à jour. L&#8217;utilisation continue de l&#8217;application après des modifications vaut acceptation de la politique révisée.</p>
+
+      <h3>Contact</h3>
+      <p>Si vous avez des questions concernant la présente politique, contactez-nous à <a href="mailto:contact@tuffyred.com" style="color:#C23B2C;text-decoration:none">contact@tuffyred.com</a></p>
+    </div>
+
+    <!-- Terms of Service -->
+    <div class="vb-section" id="terms">
+      <p class="vb-section-title">Conditions d&#8217;utilisation</p>
+      <span class="vb-updated">Dernière mise à jour : 22 juin 2026</span>
+
+      <p>Veuillez lire attentivement les présentes conditions d&#8217;utilisation (&#8220;Conditions&#8221;) avant d&#8217;utiliser l&#8217;application Verbi Brutali exploitée par Tuffyred LLC (&#8220;nous&#8221; ou &#8220;notre&#8221;).</p>
+
+      <h3>Utilisation de l&#8217;application</h3>
+      <p>Verbi Brutali est fournie pour un usage personnel, éducatif et non commercial. Vous ne pouvez pas copier, modifier, distribuer ni pratiquer l&#8217;ingénierie inverse sur une quelconque partie de l&#8217;application.</p>
+
+      <h3>Achats intégrés</h3>
+      <p>L&#8217;application propose des achats facultatifs pour débloquer du contenu premium. Toutes les ventes sont définitives, sauf disposition contraire de la loi applicable. Les achats sont gérés via l&#8217;App Store d&#8217;Apple ou le Google Play Store, et leurs politiques de remboursement s&#8217;appliquent.</p>
+
+      <h3>Exclusion de garanties</h3>
+      <p>L&#8217;application est fournie &#8220;telle quelle&#8221;, sans garantie d&#8217;aucune sorte. Nous ne garantissons pas que l&#8217;application sera exempte d&#8217;erreurs ou ininterrompue. Le contenu éducatif (conjugaisons de verbes, traductions) est fourni à des fins d&#8217;apprentissage et peut contenir des inexactitudes.</p>
+
+      <h3>Limitation de responsabilité</h3>
+      <p>Dans toute la mesure permise par la loi, Tuffyred LLC ne saurait être tenue responsable de tout dommage indirect, accessoire ou consécutif découlant de votre utilisation de l&#8217;application.</p>
+
+      <h3>Droit applicable</h3>
+      <p>Les présentes Conditions sont régies par les lois des États-Unis. Tout litige sera résolu dans la juridiction où Tuffyred LLC exerce ses activités.</p>
+
+      <h3>Modifications des présentes Conditions</h3>
+      <p>Nous nous réservons le droit de modifier les présentes Conditions à tout moment. L&#8217;utilisation continue de l&#8217;application après des modifications vaut acceptation des Conditions révisées.</p>
+
+      <h3>Contact</h3>
+      <p>Pour toute question concernant les présentes Conditions, contactez-nous à <a href="mailto:contact@tuffyred.com" style="color:#C23B2C;text-decoration:none">contact@tuffyred.com</a></p>
+    </div>
+
+    <div class="vb-footer">
+      <a href="../../">&larr; Retour à Tuffyred.com</a> &nbsp;&middot;&nbsp; &copy; 2026 Tuffyred LLC
+    </div>
+
+  </div>
+</body>
+</html>

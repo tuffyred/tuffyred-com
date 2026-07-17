@@ -6,6 +6,13 @@
   <title>Verbi Brutali — Tuffyred LLC</title>
   <meta name="description" content="Verbi Brutali — Italian verb conjugation trainer by Tuffyred LLC. Privacy Policy and Terms of Service.">
   <link rel="canonical" href="https://tuffyred.com/verbi-brutali/">
+  <link rel="alternate" hreflang="en" href="https://tuffyred.com/verbi-brutali/">
+  <link rel="alternate" hreflang="it" href="https://tuffyred.com/verbi-brutali/it/">
+  <link rel="alternate" hreflang="es" href="https://tuffyred.com/verbi-brutali/es/">
+  <link rel="alternate" hreflang="fr" href="https://tuffyred.com/verbi-brutali/fr/">
+  <link rel="alternate" hreflang="de" href="https://tuffyred.com/verbi-brutali/de/">
+  <link rel="alternate" hreflang="pt" href="https://tuffyred.com/verbi-brutali/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://tuffyred.com/verbi-brutali/">
   <link rel="icon" href="../assets/images/verbi-brutali-icon.png">
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <style>
@@ -18,6 +25,30 @@
       margin: 0 auto;
       padding: 3rem 1.5rem 5rem;
       color: #1C1C1C;
+    }
+
+    /* Language switcher */
+    .vb-langs {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+      font-size: 13px;
+    }
+    .vb-langs a { color: #9A9384; text-decoration: none; }
+    .vb-langs a:hover { color: #C23B2C; }
+    .vb-langs a.active { color: #1C1C1C; font-weight: 600; }
+
+    /* Convenience-translation note */
+    .vb-tx-note {
+      font-size: 12px;
+      color: #9A9384;
+      line-height: 1.6;
+      background: #f9f6f0;
+      border-radius: 10px;
+      padding: 0.85rem 1.1rem;
+      margin-bottom: 2.5rem;
     }
 
     /* App header */
@@ -62,6 +93,34 @@
       text-decoration: none;
     }
     .vb-badge:hover { background: #f5f0e8; }
+
+    /* Screenshot gallery */
+    .vb-shots-heading {
+      font-family: 'Archivo Black', 'Arial Black', sans-serif;
+      font-size: 15px;
+      color: #1C1C1C;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 1rem;
+    }
+    .vb-shots {
+      display: flex;
+      gap: 14px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 -1.5rem 3rem;
+      padding: 0 1.5rem 1rem;
+    }
+    .vb-shots img {
+      flex: 0 0 auto;
+      width: 220px;
+      height: auto;
+      border-radius: 20px;
+      border: 1px solid #e5e0d8;
+      scroll-snap-align: start;
+      background: #ffffff;
+    }
 
     /* Legal sections */
     .vb-section {
@@ -124,6 +183,16 @@
 <body>
   <div class="vb-page">
 
+    <!-- Language switcher -->
+    <nav class="vb-langs">
+      <a href="./" class="active" hreflang="en">English</a>
+      <a href="it/" hreflang="it">Italiano</a>
+      <a href="es/" hreflang="es">Español</a>
+      <a href="fr/" hreflang="fr">Français</a>
+      <a href="de/" hreflang="de">Deutsch</a>
+      <a href="pt/" hreflang="pt">Português</a>
+    </nav>
+
     <!-- App header -->
     <div class="vb-header">
       <div class="vb-icon">
@@ -143,6 +212,19 @@
           </a>
         </div>
       </div>
+    </div>
+
+    <!-- Screenshots -->
+    <h2 class="vb-shots-heading">A look inside</h2>
+    <div class="vb-shots">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/01-home.png" alt="Home screen — pick a drill mode: Random, One tense, Weak spots, or Review rules">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/02-quiz-question.png" alt="Practice question — conjugate the verb “avere” for “noi”">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/03-quiz-answer.png" alt="Correct answer with the full conjugation table for “avere”">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/04-verb-tiers.png" alt="Settings — choose a verb tier from 25 up to 800 verbs">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/05-manage-verbs.png" alt="Manage Verbs — search and toggle individual verbs">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/06-active-tenses.png" alt="Active tenses — enable Indicativo, Congiuntivo, and Condizionale tenses">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/07-language.png" alt="Choose your native language: English, Spanish, French, German, Portuguese, or Italian">
+      <img loading="lazy" width="1080" height="2424" src="../assets/images/screenshots/en/08-collection.png" alt="La Collezione — collectible Italian treasures earned by practicing">
     </div>
 
     <!-- Support / Contact -->

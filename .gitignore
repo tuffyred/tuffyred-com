@@ -30,3 +30,6 @@ tmp/
 /French/
 /Porteguese/
 feature_graphic*
+
+# Local-only WordPress paste helpers (not part of the static site)
+/wordpress-paste/
